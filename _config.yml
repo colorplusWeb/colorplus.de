@@ -1,0 +1,7 @@
+name: color+ Homepage
+description: The Homepage of the color+ company.
+
+author: lk
+author_email: l.knoke@colorplus.de
+
+include: ["_pages"]
