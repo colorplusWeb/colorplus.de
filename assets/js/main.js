@@ -209,6 +209,8 @@ $(document).ready(function() {
         return false;
     });
 
+    $('.member-container div.column.three:nth-child(4n)').addClass('last');
+
 
 
     /******************************************/

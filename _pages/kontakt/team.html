@@ -1,0 +1,57 @@
+---
+layout: default
+permalink: kontakt/team
+---
+<main role="main">
+            <div id="intro-wrap" data-height="42">
+                <div id="intro" class="preload darken  more-button">
+                    <div class="intro-item" style="background-image: url(/assets/images/team/team2.jpg);">
+                        <div class="caption">
+                            <h2>Das Team</h2>
+                            <p>Der Mensch macht's.<br>
+                            Das COLOR+ Team steht für Sie bereit.
+                            </p>
+                        </div><!-- caption -->
+                    </div>
+                </div><!-- intro -->
+            </div><!-- intro-wrap -->
+
+            <div id="main" class="row">
+                <div class="row-content buffer-left buffer-right buffer-top clear-after member-container">
+
+                    {% for member in site.data.members %}
+                      <div class="column three" style="margin-bottom: 45px">
+                        <figure class="about-us">
+                          {% if member.image %}
+                            <img src="/assets/images/team/{{ member.image }}.jpg">
+                          {% else %}
+                            <img src="/assets/images/nopic.jpg">
+                          {% endif %}
+                          <figcaption>
+                            <h4>{{ member.name }}</h4>
+                            <p>{{ member.abteilung }}</p>
+                            <div class="meta-social">
+                              <ul class="inline">
+                                <li><a href="#" class="twitter-share border-box contact-trigger"><i class="fa fa-phone fa-lg"></i></a></li>
+                                <li><a href="mailto:{{ member.email }}" class="twitter-share border-box"><i class="fa fa-envelope-o fa-lg"></i></a></li>
+                              </ul>
+                              <div class="contact-block">
+                                <p>
+                                  {% if member.telefon %}Tel. <strong>{{ member.telefon }}</strong> <br>{% endif %}
+                                  {% if member.mobil %}Tel. <strong>{{ member.mobil }}</strong> <br>{% endif %}
+                                  {% if member.fax %}Fax  <strong>{{ member.fax }}</strong> <br>{% endif %}
+                                  {% if member.email %}Email <strong>{{ member.email }}</strong>{% endif %}
+                                </p>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    {% endfor %}
+
+                  </div>
+            </div><!-- id-main -->
+        </main><!-- main -->
+
+        <!-- Add "page" class to body -->
+        <script type="text/javascript">document.getElementsByTagName('body')[0].className+=' page'</script>
