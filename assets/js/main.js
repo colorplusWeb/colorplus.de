@@ -44,55 +44,35 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
-    var $contactForm = $('#supportForm');
+    var $supportForm = $('#supportForm');
     var $sendButton = $('#sendMessage')
 
-    $sendButton.click(function(){
+    $sendButton.click(function(event){
+        event.preventDefault();
         $sendButton.val('Senden ...');
-        $('#response').empty();
 
         $.ajax({
             type:     'POST',
             url:      'https://formspree.io/l.knoke@colorplus.de',
-            data:     $contactForm.serialize(),
+            data:     $supportForm.serialize(),
             dataType: 'json',
             // encode:   true,
             beforeSend: function() {
               $sendButton.prop('disabled', true);
-              $contactForm.append('<div class="alert alert--loading">Senden...</div>');
+              $supportForm.append('<div class="alert alert--loading">Senden...</div>');
             },
             success: function(data) {
-              $contactForm.find('.alert--loading').hide();
-              $contactForm.trigger('reset');
+              $supportForm.find('.alert--loading').hide();
+              $supportForm.trigger('reset');
               $sendButton.removeProp('disabled');
               $sendButton.val('Senden');
-              $contactForm.append('<div class="alert alert--success">Nachricht gesendet!</div>');
+              $supportForm.append('<div class="alert alert--success">Nachricht gesendet!</div>');
             },
             error: function(err) {
-              $contactForm.find('.alert--loading').hide();
-              $contactForm.append('<div class="alert alert--error">Ein Fehler ist aufgetreten. Bitte versuchen Sie es noch einmal!</div>');
+              $supportForm.find('.alert--loading').hide();
+              $supportForm.append('<div class="alert alert--error">Ein Fehler ist aufgetreten. Bitte versuchen Sie es noch einmal!</div>');
             }
         })
-
-          // .done(function(data){
-          //   if (data.success) {
-          //       $('#response').html(data.message).removeClass().addClass('success');
-          //       $('#supportForm').trigger('reset');
-          //       $('#sendMessage').val('Senden');
-          //
-          //   }
-          //   else {
-          //       $('#response').html(data.message).removeClass().addClass('fail');
-          //       $('#sendMessage').val('Senden');
-          //   }
-          // })
-          //
-          // .fail(function(data) {
-          //     console.log('Fail');
-          //     $('#response').html('Ein Fehler ist aufgetreten. Bitte versuchen Sie es noch einmal!');
-          // });
-
-        event.preventDefault();
 
     });
 
@@ -100,38 +80,39 @@ $(document).ready(function() {
 /**************** MUSTER  *****************/
 /******************************************/
 
+var $musterForm = $('#muster-form');
+var $sendMuster = $('#sendMuster');
 
-    $('#send').click(function(){
+
+    $sendMuster.click(function(event){
+
+        event.preventDefault();
         $(this).val('Senden ...');
-        $('#response').empty();
 
         $.ajax({
             type:     'POST',
-            url:      'muster.php',
-            data:     $('#contact-form').serialize(),
+            url:      'https://formspree.io/l.knoke@colorplus.de',
+            data:     $musterForm.serialize(),
             dataType: 'json',
-            encode:   true
+            // encode:   true,
+            beforeSend: function() {
+              $sendMuster.prop('disabled', true);
+              $musterForm.append('<div class="alert alert--loading">Senden...</div>');
+            },
+            success: function(data) {
+              $musterForm.find('.alert--loading').hide();
+              $musterForm.trigger('reset');
+              $sendMuster.removeProp('disabled');
+              $sendMuster.val('Senden');
+              $musterForm.append('<div class="alert alert--success">Nachricht gesendet!</div>');
+            },
+            error: function(err) {
+              $musterForm.find('.alert--loading').hide();
+              $musterForm.append('<div class="alert alert--error">Ein Fehler ist aufgetreten. Bitte versuchen Sie es noch einmal!</div>');
+            }
         })
 
-          .done(function(data){
-            if (data.success) {
-                $('#response').html(data.message).removeClass().addClass('success');
-                $('#contact-form').trigger('reset');
-                $('#send').val('Senden');
 
-            }
-            else {
-                $('#response').html(data.message).removeClass().addClass('fail');
-                $('#send').val('Senden');
-            }
-          })
-
-          .fail(function(data) {
-              console.log('Fail');
-              $('#response').html('Ein Fehler ist aufgetreten. Bitte versuchen Sie es noch einmal!');
-          });
-
-        event.preventDefault();
 
     });
 
