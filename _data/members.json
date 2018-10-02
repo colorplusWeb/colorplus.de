@@ -25,6 +25,15 @@
          "image":"ub"
       },
       {
+         "name":"Lucas Hasselmann",
+         "abteilung":"Verkauf",
+         "telefon":"05531/9320-15",
+         "mobil":"0170/9146640",
+         "fax":"05531/9320-50",
+         "email":"l.hasselmann@colorplus.de",
+         "image":"lh"
+      },
+      {
          "name":"Markus Pfitzner",
          "abteilung":"Innendienst",
          "telefon":"05531/9320-20",
@@ -86,13 +95,15 @@
          "telefon":"05531/9320-85",
          "fax":"05531/9320-50",
          "email":"c.schmidt@colorplus.de",
+         "image":"cs"
       },
       {
-         "name":"Ivonne Klein",
-         "abteilung":"Grafik",
+         "name":"Alexander Öhls",
+         "abteilung":"Vorstufe",
          "telefon":"05531/9320-84",
          "fax":"05531/9320-50",
-         "email":"i.klein@colorplus.de",
+         "email":"a.oehls@colorplus.de",
+         "image":"ao"
       },
       {
          "name":"Viktor Hertel",
