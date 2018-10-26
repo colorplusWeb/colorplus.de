@@ -53,7 +53,7 @@ $(document).ready(function() {
 
         $.ajax({
             type:     'POST',
-            url:      'https://formspree.io/l.knoke@colorplus.de',
+            url:      'https://formcarry.com/s/IcrSDv1KUJD',
             data:     $supportForm.serialize(),
             dataType: 'json',
             // encode:   true,
@@ -91,7 +91,7 @@ var $sendMuster = $('#sendMuster');
 
         $.ajax({
             type:     'POST',
-            url:      'https://formspree.io/l.knoke@colorplus.de',
+            url:      'https://formcarry.com/s/fUcavwcTe0m',
             data:     $musterForm.serialize(),
             dataType: 'json',
             // encode:   true,
