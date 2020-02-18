@@ -16,6 +16,15 @@
          "image":"wp"
       },
       {
+         "name":"Uwe Bettermann",
+         "abteilung":"Verkauf",
+         "telefon":"05531/9320-16",
+         "mobil":"0160/97852897",
+         "fax":"05531/9320-50",
+         "email":"u.bettermann@colorplus.de",
+         "image":"ub"
+      },
+      {
          "name":"Lucas Hasselmann",
          "abteilung":"Verkauf",
          "telefon":"05531/9320-15",
@@ -81,12 +90,12 @@
          "image":"lk"
       },
       {
-         "name":"Janina Grundke",
+         "name":"Carolin Schmidt",
          "abteilung":"Vorstufe",
          "telefon":"05531/9320-85",
          "fax":"05531/9320-50",
-         "email":"j.grundke@colorplus.de",
-         "image":"no_img"
+         "email":"c.schmidt@colorplus.de",
+         "image":"cs"
       },
       {
          "name":"Alexander Öhls",
