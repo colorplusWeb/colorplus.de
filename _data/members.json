@@ -1,115 +1,123 @@
 [
-      {
-         "name":"Thomas Hasselmann",
-         "abteilung":"Geschäftsführer",
-         "telefon":"05531/9320-0",
-         "fax":"05531/9320-50",
-         "email":"th.hasselmann@colorplus.de",
-         "image":"th"
-      },
-      {
-         "name":"Werner Pfitzner",
-         "abteilung":"Geschäftsführer",
-         "telefon":"05531/9320-0",
-         "fax":"05531/9320-50",
-         "email":"w.pfitzner@colorplus.de",
-         "image":"wp"
-      },
-      {
-         "name":"Lucas Hasselmann",
-         "abteilung":"Verkauf",
-         "telefon":"05531/9320-15",
-         "mobil":"0170/9146640",
-         "fax":"05531/9320-50",
-         "email":"l.hasselmann@colorplus.de",
-         "image":"lh"
-      },
-      {
-         "name":"Markus Pfitzner",
-         "abteilung":"Innendienst",
-         "telefon":"05531/9320-20",
-         "fax":"05531/9320-50",
-         "email":"m.pfitzner@colorplus.de",
-         "image":"mp"
-      },
-      {
-         "name":"Dennis Brüning",
-         "abteilung":"Innendienst",
-         "telefon":"05531/9320-17",
-         "fax":"05531/9320-50",
-         "email":"d.bruening@colorplus.de",
-         "image":"db"
-      },
-      {
-         "name":"Paul Wacker",
-         "abteilung":"Innendienst",
-         "telefon":"05531/9320-82",
-         "fax":"05531/9320-50",
-         "email":"p.wacker@colorplus.de",
-         "image":"pw"
-      },
-      {
-         "name":"Edda Floto",
-         "abteilung":"Zentrale/Empfang",
-         "telefon":"05531/9320-0",
-         "fax":"05531/9320-50",
-         "email":"e.floto@colorplus.de",
-         "image":"ef"
-      },
-      {
-         "name":"Tania Molthan",
-         "abteilung":"Zentrale/Buchhaltung",
-         "telefon":"05531/9320-14",
-         "fax":"05531/9320-50",
-         "email":"t.molthan@colorplus.de",
-         "image":"tm"
-      },
-      {
-         "name":"Thorsten Stickel",
-         "abteilung":"Vorstufe",
-         "telefon":"05531/9320-83",
-         "fax":"05531/9320-50",
-         "email":"th.stickel@colorplus.de",
-         "image":"ts"
-      },
-      {
-         "name":"Lars Knoke",
-         "abteilung":"Vorstufe",
-         "telefon":"05531/9320-81",
-         "fax":"05531/9320-50",
-         "email":"l.knoke@colorplus.de",
-         "image":"lk"
-      },
-      {
-         "name":"Janina Grundke",
-         "abteilung":"Vorstufe",
-         "telefon":"05531/9320-85",
-         "fax":"05531/9320-50",
-         "email":"j.grundke@colorplus.de",
-         "image":"no_img"
-      },
-      {
-         "name":"Alexander Öhls",
-         "abteilung":"Vorstufe",
-         "telefon":"05531/9320-84",
-         "fax":"05531/9320-50",
-         "email":"a.oehls@colorplus.de",
-         "image":"ao"
-      },
-      {
-         "name":"Viktor Hertel",
-         "abteilung":"Druck",
-         "telefon":"05531/9320-0",
-         "fax":"05531/9320-50",
-         "email":"v.hertel@colorplus.de",
-         "image":"vh"
-      },
-      {
-         "name":"Ingo Klose",
-         "abteilung":"Verarbeitung",
-         "telefon":"05531/9320-0",
-         "fax":"05531/9320-50",
-         "email":"i.klose@colorplus.de",
-         "image":"ik"
-      }
+  {
+    "name": "Thomas Hasselmann",
+    "abteilung": "Geschäftsführer",
+    "telefon": "05531/9320-0",
+    "fax": "05531/9320-50",
+    "email": "th.hasselmann@colorplus.de",
+    "image": "th"
+  },
+  {
+    "name": "Werner Pfitzner",
+    "abteilung": "Geschäftsführer",
+    "telefon": "05531/9320-0",
+    "fax": "05531/9320-50",
+    "email": "w.pfitzner@colorplus.de",
+    "image": "wp"
+  },
+  {
+    "name": "Markus Pfitzner",
+    "abteilung": "Geschäftsführer",
+    "telefon": "05531/9320-20",
+    "fax": "05531/9320-50",
+    "email": "m.pfitzner@colorplus.de",
+    "image": "mp"
+  },
+  {
+    "name": "Lucas Hasselmann",
+    "abteilung": "Kundenbetreuung",
+    "telefon": "05531/9320-15",
+    "mobil": "0170/9146640",
+    "fax": "05531/9320-50",
+    "email": "l.hasselmann@colorplus.de",
+    "image": "lh"
+  },
+  {
+    "name": "Dennis Brüning",
+    "abteilung": "Kundenbetreuung",
+    "telefon": "05531/9320-17",
+    "fax": "05531/9320-50",
+    "email": "d.bruening@colorplus.de",
+    "image": "db"
+  },
+  {
+    "name": "Paul Wacker",
+    "abteilung": "Kundenbetreuung",
+    "telefon": "05531/9320-82",
+    "fax": "05531/9320-50",
+    "email": "p.wacker@colorplus.de",
+    "image": "pw"
+  },
+  {
+    "name": "Thomas Heinemeyer",
+    "abteilung": "Kundenbetreuung",
+    "telefon": "05531/9320-12",
+    "fax": "05531/9320-50",
+    "email": "th.heinemeyer@colorplus.de",
+    "image": "no_img"
+  },
+  {
+    "name": "Edda Floto",
+    "abteilung": "Zentrale/Empfang",
+    "telefon": "05531/9320-0",
+    "fax": "05531/9320-50",
+    "email": "e.floto@colorplus.de",
+    "image": "ef"
+  },
+  {
+    "name": "Tania Molthan",
+    "abteilung": "Zentrale/Buchhaltung",
+    "telefon": "05531/9320-14",
+    "fax": "05531/9320-50",
+    "email": "t.molthan@colorplus.de",
+    "image": "tm"
+  },
+  {
+    "name": "Thorsten Stickel",
+    "abteilung": "Vorstufe",
+    "telefon": "05531/9320-83",
+    "fax": "05531/9320-50",
+    "email": "th.stickel@colorplus.de",
+    "image": "ts"
+  },
+  {
+    "name": "Lars Knoke",
+    "abteilung": "Vorstufe",
+    "telefon": "05531/9320-81",
+    "fax": "05531/9320-50",
+    "email": "l.knoke@colorplus.de",
+    "image": "lk"
+  },
+  {
+    "name": "Janina Grundke",
+    "abteilung": "Vorstufe",
+    "telefon": "05531/9320-85",
+    "fax": "05531/9320-50",
+    "email": "j.grundke@colorplus.de",
+    "image": "no_img"
+  },
+  {
+    "name": "Alexander Öhls",
+    "abteilung": "Vorstufe",
+    "telefon": "05531/9320-84",
+    "fax": "05531/9320-50",
+    "email": "a.oehls@colorplus.de",
+    "image": "ao"
+  },
+  {
+    "name": "Viktor Hertel",
+    "abteilung": "Druck",
+    "telefon": "05531/9320-0",
+    "fax": "05531/9320-50",
+    "email": "v.hertel@colorplus.de",
+    "image": "vh"
+  },
+  {
+    "name": "Ingo Klose",
+    "abteilung": "Verarbeitung",
+    "telefon": "05531/9320-0",
+    "fax": "05531/9320-50",
+    "email": "i.klose@colorplus.de",
+    "image": "ik"
+  }
 ]
