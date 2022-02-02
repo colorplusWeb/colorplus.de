@@ -2,6 +2,17 @@
 layout: default
 ---
 
+<div class="popup">
+  <h2 style="color: white; margin-top: 10px">Technische Probleme</h2>
+  <p>
+    Aufgrund einer technischen Störung unseres Telefon-Anbieters sind wir
+    derzeit telefonisch nicht erreichbar! <br />In dringenden Fällen senden Sie
+    Bitte eine Email an:
+    <a href="mailto:info@colorplus.de">info@colorplus.de</a> <br /><br />Es wird
+    mit Hochdruck an einer Lösung gearbeitet - vielen Dank für Ihr Verständnis
+    und Ihre Geduld!
+  </p>
+</div>
 <main role="main">
   <div id="intro-wrap" data-height="42">
     <div
@@ -447,3 +458,26 @@ layout: default
 <script type="text/javascript">
   document.getElementsByTagName("body")[0].className += " page";
 </script>
+<style>
+  .popup {
+    position: absolute;
+    padding: 70px;
+    background-color: rgba(253, 104, 91, 1);
+    color: white;
+    border: 2px solid white;
+    z-index: 99999;
+    text-align: center;
+    width: 50vw;
+    max-width: 1200px;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -25vw;
+  }
+  @media (max-width: 700px) {
+    .popup {
+      left: 30%;
+      width: 90% !important;
+      padding: 40px;
+    }
+  }
+</style>
