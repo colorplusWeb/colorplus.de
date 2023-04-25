@@ -1,13 +1,5 @@
 [
   {
-    "name": "Thomas Hasselmann",
-    "abteilung": "Geschäftsführer",
-    "telefon": "05531/9320-0",
-    "fax": "05531/9320-50",
-    "email": "th.hasselmann@colorplus.de",
-    "image": "th"
-  },
-  {
     "name": "Werner Pfitzner",
     "abteilung": "Geschäftsführer",
     "telefon": "05531/9320-0",
@@ -15,7 +7,15 @@
     "email": "w.pfitzner@colorplus.de",
     "image": "wp"
   },
-{
+  {
+    "name": "Dennis Brüning",
+    "abteilung": "Geschäftsführer",
+    "telefon": "05531/9320-17",
+    "fax": "05531/9320-50",
+    "email": "d.bruening@colorplus.de",
+    "image": "db"
+  },
+  {
     "name": "Lucas Hasselmann",
     "abteilung": "Kundenbetreuung",
     "telefon": "05531/9320-15",
@@ -23,14 +23,6 @@
     "fax": "05531/9320-50",
     "email": "l.hasselmann@colorplus.de",
     "image": "lh"
-  },
-  {
-    "name": "Dennis Brüning",
-    "abteilung": "Kundenbetreuung",
-    "telefon": "05531/9320-17",
-    "fax": "05531/9320-50",
-    "email": "d.bruening@colorplus.de",
-    "image": "db"
   },
   {
     "name": "Paul Wacker",
